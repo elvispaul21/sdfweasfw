@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exportex - Ropa Deportiva</title>
+    
+    <style>
+        /* Estilo general */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Cabecera */
+        header {
+            background-color: #111;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sección de bienvenida */
+        .hero {
+            background-image: url('depositphotos_3554179-stock-photo-shopping-in-a-causal-clothing.jpg'); /* Reemplaza con tu imagen */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Sección de productos */
+        .productos {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .producto {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .producto img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .producto h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Exportex - Ropa Deportiva</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de bienvenida -->
+    <div class="hero">
+        <h2>Descubre la Nueva Colección</h2>
+        <p>Ropa deportiva diseñada para el rendimiento y el estilo.</p>
+    </div>
+
+    <!-- Sección de productos -->
+    <section id="productos" class="productos">
+        <div class="producto">
+            <img src="images (1).jfif" alt="Casaca ">
+            <h3>casca mujer </h3>
+            <p>Ideal para tus paseos.</p>
+        </div>
+        <div class="producto">
+            <img src="images.jfif" alt="Casaca ">
+            <h3>Casaca varon </h3>
+            <p>Comodidad y estilo en cada movimiento.</p>
+        </div>
+        <div class="producto">
+            <img src="images (2).jfif" alt="Casaca ">
+            <h3>Casaca niño</h3>
+            <p>comoda.</p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Exportex. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
